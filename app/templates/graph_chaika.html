@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<link rel="stylesheet" href={{ url_for('static', filename='./css/graph_chaika.css') }}>
+<script src={{ url_for('static', filename='./js/graph_chaika.js') }}>
+</script>
+
+<script>
+
+graph_to_draw(sessionStorage.cluster);
+</script>
+    
+{% endblock %}

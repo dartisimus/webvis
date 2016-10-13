@@ -1,0 +1,27 @@
+
+.link {
+    stroke: #999;
+    stroke-opacity: .6;
+    color:cornflowerblue;
+}
+
+h3 {
+    color: #1ABC9C;
+    text-align:center;  
+    font-style: italic;
+    font-size: 14px;
+    font-family: "Helvetica";
+}
+
+.node text {
+stroke:black;
+stroke-width:1px;
+fill:black;
+cursos:pointer;
+}
+
+.node circle{
+stroke:#fff;
+stroke-width:3px;
+fill:#555;
+}
